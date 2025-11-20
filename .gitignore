@@ -1,0 +1,25 @@
+# macOS System files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Build Artifacts (Don't upload the app itself)
+NetSpeedMonitorPro.app/
+NetSpeedMonitorPro.dmg
+
+# Temporary build files
+*.dmg
+dmg_staging/
+MyIcon.iconset/
+*.o
+*.swiftmodule/
+*.swiftdoc/
+*.abi.json
+
+# Xcode specific (if you open it in Xcode later)
+build/
+DerivedData/
+*.xcodeproj/
+*.xcworkspace/
+xcuserdata/
+```
